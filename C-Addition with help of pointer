@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int b = 20;
+    int *ptrA = &a;  
+    int *ptrB = &b;
+    int sum = 0;
+    sum = *ptrA + *ptrB;  
+    printf("Sum of a and b is: %d\n", sum);
+    
+    return 0;
+}
+
+output:
+Sum of a and b is: 30
